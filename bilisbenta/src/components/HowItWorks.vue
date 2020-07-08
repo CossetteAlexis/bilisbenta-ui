@@ -102,4 +102,14 @@ export default {
     width: 50px !important;
     }
 
+    .section-vid-text-1 {
+    font-size: 1.9rem;
+    font-weight: 600;
+    }
+
+  .section-vid-text-2 {
+    font-size: 1.6rem;
+    font-weight: 500;
+    }
+
 </style>
