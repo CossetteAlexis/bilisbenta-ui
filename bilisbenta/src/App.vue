@@ -32,7 +32,7 @@ export default {
   }
 }
 </script>
-
+  
 <style>
 #app {
   font-family: Nunito;
