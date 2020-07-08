@@ -11,13 +11,13 @@
 </template>
 
 <script>
-import Navbar from './components/Navbar.vue'
+import Navbar from './components/Layout/Navbar.vue'
 import Home from './components/Home.vue'
 import About from './components/About.vue'
 import HowItWorks from './components/HowItWorks'
 import Benefits from './components/Benefits'
 import Packages from './components/Packages'
-import Footer from './components/Footer'
+import Footer from './components/Layout/Footer'
 
 export default {
   name: 'App',
