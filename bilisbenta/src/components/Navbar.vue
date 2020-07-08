@@ -7,7 +7,7 @@
 			</button>
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
 				<ul class="navbar-nav ml-auto">
-					<li class="nav-item">
+					<li class="nav-item ml-3">
 						<a data-toggle="collapse" data-target=".navbar-collapse.show" href="#home" class="nav-link text-dark">Home</a>
 					</li>
 					<li class="nav-item ml-3">
@@ -48,7 +48,6 @@ export default {
   
   .nav-link:hover {
     border-bottom: 5px solid #3490dc;
-    /* color:#fff!important; */
     }
   .active {
     border-bottom: 5px solid #3490dc;
