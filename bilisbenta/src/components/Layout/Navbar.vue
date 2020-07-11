@@ -26,7 +26,7 @@
 						<a data-toggle="collapse" data-target=".navbar-collapse.show" href="#contact" class="nav-link text-dark">Contact</a>
 					</li>
 					<li class="nav-item ml-3">
-						<a href="#" class="nav-link text-dark">Log in</a>
+						<a v-bind:href="login" class="nav-link text-dark">Login</a>			
 					</li>
 				</ul>
 			</div>
@@ -35,8 +35,13 @@
 </template>
 
 <script>
+// import Login from '@/components/Login.vue'
+
 export default {
-    name: "Navbar"
+    name: "Navbar",
+	components: {
+		// Login
+	}
 }
 </script>
 
