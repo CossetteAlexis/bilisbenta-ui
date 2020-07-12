@@ -1,39 +1,7 @@
 <template>
   <div>
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
-      <div class="container">
-        <a class="navbar-brand mr-auto" href=""><img src="/img/bilisbenta-logo.png" alt="" class=""></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a data-toggle="collapse" data-target=".navbar-collapse.show" href="#home" class="nav-link text-dark">Home</a>
-            </li>
-            <li class="nav-item ml-3">
-              <a data-toggle="collapse" data-target=".navbar-collapse.show" href="#about" class="nav-link text-dark">About</a>
-            </li>
-            <li class="nav-item ml-3">
-              <a data-toggle="collapse" data-target=".navbar-collapse.show" href="#how-it-works" class="nav-link text-dark">How it works</a>
-            </li>
-            <li class="nav-item ml-3">
-              <a data-toggle="collapse" data-target=".navbar-collapse.show" href="#benefits" class="nav-link text-dark">Benefits</a>
-            </li>
-            <li class="nav-item ml-3">
-              <a data-toggle="collapse" data-target=".navbar-collapse.show" href="#packages" class="nav-link text-dark">Packages</a>
-            </li>
-            <li class="nav-item ml-3">
-              <a data-toggle="collapse" data-target=".navbar-collapse.show" href="#contact" class="nav-link text-dark">Contact</a>
-            </li>
-            <li class="nav-item ml-3">
-              <a href="#" class="nav-link text-dark">Log in</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+    
     <!-- //end of navbar -->
     <!-- home -->
     <div class="image-parallax" id="home">
@@ -241,7 +209,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
     .image-parallax {
     background-image: url('/img/home-background.png');
     height: 100vh;

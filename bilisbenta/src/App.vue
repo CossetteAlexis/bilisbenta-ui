@@ -1,20 +1,21 @@
 <template>
   <div id="app">
-    <Content/>
+    <Navbar/>
+    <router-view></router-view>
   </div>
 </template>
 
-<script>
-import Content from './components/Content.vue'
+// <script>
+import Navbar from './components/Navbar'
 
 export default {
-  name: 'App',
+  name: "app",
   components: {
-    Content
+    Navbar,
   }
 }
 </script>
-  
+
 <style>
 #app {
   font-family: Nunito;
