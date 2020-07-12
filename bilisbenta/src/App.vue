@@ -1,34 +1,16 @@
 <template>
   <div id="app">
-    <Navbar/>
-    <Home/>
-    <About/>
-    <HowItWorks/>
-    <Benefits/>
-    <Packages/>
-    <Footer/>
+    <Content/>
   </div>
 </template>
 
 <script>
-import Navbar from './components/Layout/Navbar.vue'
-import Home from './components/Home.vue'
-import About from './components/About.vue'
-import HowItWorks from './components/HowItWorks'
-import Benefits from './components/Benefits'
-import Packages from './components/Packages'
-import Footer from './components/Layout/Footer'
+import Content from './components/Content.vue'
 
 export default {
   name: 'App',
   components: {
-    Navbar,
-    Home,
-    About,
-    HowItWorks,
-    Benefits,
-    Packages,
-    Footer
+    Content
   }
 }
 </script>
