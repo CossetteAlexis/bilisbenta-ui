@@ -9,23 +9,23 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-                <router-link data-toggle="collapse" data-target=".navbar-collapse.show" to="/" class="nav-link text-dark">Home</router-link>
+                <router-link data-toggle="collapse" data-target=".navbar-collapse.show" to="/" v-scroll-to="'#home'" class="nav-link text-dark">Home</router-link>
               <!--<a data-toggle="collapse" data-target=".navbar-collapse.show" href="#home" class="nav-link text-dark">Home</a>-->
             </li>
             <li class="nav-item ml-3">
-              <a data-toggle="collapse" data-target=".navbar-collapse.show" href="#about" class="nav-link text-dark">About</a>
+              <a data-toggle="collapse" data-target=".navbar-collapse.show" href="#" v-scroll-to="'#about'" class="nav-link text-dark">About</a>
             </li>
             <li class="nav-item ml-3">
-              <a data-toggle="collapse" data-target=".navbar-collapse.show" href="#how-it-works" class="nav-link text-dark">How it works</a>
+              <a data-toggle="collapse" data-target=".navbar-collapse.show" href="#" v-scroll-to="'#how-it-works'" class="nav-link text-dark">How it works</a>
             </li>
             <li class="nav-item ml-3">
-              <a data-toggle="collapse" data-target=".navbar-collapse.show" href="#benefits" class="nav-link text-dark">Benefits</a>
+              <a data-toggle="collapse" data-target=".navbar-collapse.show" href="#" v-scroll-to="'#benefits'" class="nav-link text-dark">Benefits</a>
             </li>
             <li class="nav-item ml-3">
-              <a data-toggle="collapse" data-target=".navbar-collapse.show" href="#packages" class="nav-link text-dark">Packages</a>
+              <a data-toggle="collapse" data-target=".navbar-collapse.show" href="#packages" v-scroll-to="'#packages'" class="nav-link text-dark">Packages</a>
             </li>
             <li class="nav-item ml-3">
-              <a data-toggle="collapse" data-target=".navbar-collapse.show" href="#contact" class="nav-link text-dark">Contact</a>
+              <a data-toggle="collapse" data-target=".navbar-collapse.show" href="#contact" v-scroll-to="'#contact'" class="nav-link text-dark">Contact</a>
             </li>
             <li class="nav-item ml-3">
               <router-link data-toggle="collapse" data-target=".navbar-collapse.show" to="/login" class="nav-link text-dark">Login</router-link>
@@ -38,3 +38,9 @@
     </nav>
     </div>  
 </template>
+
+<script>
+export default {
+    name: "Navbar"
+}
+</script>
